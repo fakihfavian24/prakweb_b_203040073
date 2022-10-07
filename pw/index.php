@@ -15,7 +15,7 @@ $buku  = query("SELECT * FROM buku");
   <!-- link font awesome cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="style4.css">
 
   <title>Halaman Admin</title>
 </head>
@@ -66,6 +66,7 @@ $buku  = query("SELECT * FROM buku");
 
 
   </table>
+  <br><br>
 
 </body>
 
