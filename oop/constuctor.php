@@ -1,5 +1,8 @@
 <?php
 
+/*Fakih Favian Wibowo
+203040073*/
+
 use Produk as GlobalProduk;
 
 class Produk
