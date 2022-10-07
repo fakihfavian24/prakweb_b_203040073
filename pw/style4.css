@@ -58,7 +58,7 @@ h1 {
 }
 
 .tbl_tambah {
-  margin-left: 48rem;
+  margin-left: 45rem;
 }
 
 .tbl_tambah .tambah {
@@ -86,4 +86,9 @@ h1 {
 
 .tbl-merah {
   color: rgb(248, 35, 35);
+}
+
+.tbl-detail {
+  text-decoration: none;
+  color: #192a56;
 }

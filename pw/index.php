@@ -59,6 +59,9 @@ $buku  = query("SELECT * FROM buku");
           <a href="php/ubah.php?id=<?= $bk["id"]; ?>" class="tbl-hijau"><i class="fas fa-edit"></i></a>
           <a href="php/hapus.php?id=<?= $bk["id"]; ?>" onclick="return confirm('yakin?');" class="tbl-merah"><i class="fas fa-trash-alt"></i></a>
         </td>
+        <td>
+          <button><a href="php/detail.php?id=<?= $bk['id'] ?>" class="tbl-detail">Detail</a></button>
+        </td>
 
       </tr>
       <?php $i++; ?>
